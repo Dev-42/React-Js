@@ -1,0 +1,9 @@
+.UserCard{
+    display: flex;
+}
+.imgContent{
+    border-radius: 50%;
+}
+.userBtn{
+    margin-left: 20px;
+}
