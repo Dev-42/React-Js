@@ -1,10 +1,19 @@
 // Your code goes here
 // do a default export
-import React from 'react'
+import {useState} from 'react'
 // import './usercard.css'
 export default function UserCard(props) {
   let style = {
     borderRadius:"50%"
+  }
+  let [name,setName] = useState('follow')
+  function changeState(){
+    if(name ==='follow'){
+      setName('following')
+    }
+    else{
+      setName('follow')
+    }
   }
   return (
     <div className='UserCard'>
@@ -20,7 +29,7 @@ export default function UserCard(props) {
             <p data-testid = 'user_followers'>{props.followers}</p>
         </div>
         <div className="userBtn">
-            <button id='btn'>following</button>
+            <button id='btn' onClick={changeState}>{name}</button>
         </div>
         <div>
 
