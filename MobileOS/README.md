@@ -32,10 +32,6 @@ npm run test
 
 ```
 
-- the system on cp.masaischool.com may take between 1-20 minutes for responding,
-- so we request you to read the problem carefully and debug before itself
-- we also request you to not to just submit it last minute
-- try to keep one submission at a time
 
 # Problem Description
 
@@ -54,7 +50,7 @@ npm run test
 - Second list should have the following heading and list items
 
   - heading - `Mobile Manufacturers`
-  - an unordered list with data-testid = `manufacturers-list` and follwoing list items
+  - an unordered list with data-testid = `manufacturers-list` and following list items
     - Samsung
     - HTC
     - Micromax
@@ -64,13 +60,7 @@ npm run test
 
 #### **Note**
 
-- Make sure you use only the given components and dont create new Components, files, folders of your own. Changing component name, file/folder structures might result in giving you zero marks
-- Do Not Remove `data-testid="xxxx"` from anywhere, these are used by testing tools to test your code, removal of this will lead to low score.
-- Also make sure to cross check all the spellings and Case of Texts.
+- Make sure you use only the given components and don't create new Components, files, or folders of your own. Changing component names, and file/folder structures might result in giving you zero marks
+- Do Not Remove `data-testid="xxxx"` from anywhere, Testing tools use these to test your code, and removal of this will lead to low scores.
+- Also, cross-check all the spellings and Cases of Texts.
 
-#### General guidelines
-
-- The system on cp.masaischool.com may take between 1-20 minutes for responding,
-- so we request you to read the problem carefully and debug before itself
-- we also request you not to just submit it last minute
-- try to keep one submission at a time
