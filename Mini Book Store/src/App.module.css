@@ -1,0 +1,13 @@
+.mainHheader{
+    text-align: center;
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 34rem;
+    /* height: 30px; */
+    /* width: 12rem; */
+    padding: 9px;
+    border-radius: 7px;
+}
